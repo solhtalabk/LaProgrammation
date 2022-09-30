@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Programmation - FAQ</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/iconepage.png">
+</head>
+<body>
+    <header>
+        <h3 id="Logo"><a href="../index.html" title="Aller au page Accueil">EducaJeux.inc</a></h3>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="POO.html">POO</a></li>
+                <li><a href="ProgWEB.html">WEB</a></li>
+                <li><a href="ProgImperative.html">Imp&#233;rative</a></li>
+                <li><a href="ProgDeclarative.html">D&#233;clarative</a></li>
+        </nav>
+        </ul>
+    </header>
+    <h2>Foire aux Questions</h2>
+    <main>
+        <button class="accordion">Par quel langage de programmation que je dois commencer&#63;</button>
+        <div class="panel">
+            <p>
+                Une des questions les plus populaires, pour vous r&#233;pondre il suffit de savoir votre niveau en programmation. 
+                Pour les d&#233;butants, il serait id&#233;al de commencer avec <a href="https://www.algoblocs.fr/" target="_blank">Algoblocs</a> et <a href="http://larp.marcolavoie.ca/fr/" target="_blank">LARP</a>.
+            </p>
+        </div>
+        <button class="accordion">Pourquoi apprendre un langage de programmation&#63;</button>
+        <div class="panel">
+            <p>Un langage de programmation permet de vous faire comprendre comment un programme fonctionne en g&#233;n&#233;ral.</p>
+            <p>C&#39;est quoi qu&#39;il y a derri&#232;re le programme, le code, les instructions, le but du programme.</p>
+        </div>
+        <button class="accordion">Est-ce qu&#39;un langage de programmation est meilleur qu&#39;un autre&#63;</button>
+        <div class="panel">
+            <p>
+                Tout va d&#233;pendre de ce que tu veut faire avec le programme, comment le programme va fonctionner, etc...
+                En g&#233;n&#233;ral, un langage de programmation n&#39;est pas meilleur que dans certains circonstances&#40;syntaxe, structures&#41;.
+            </p>
+            <p><a href="https://fr.wikipedia.org/wiki/Comparaison_des_langages_de_programmation_multi-paradigmes" target="_blank">Plus de d&#233;tails</a></p>
+        </div>
+        <button class="accordion">Combien de temps &#231;a me prendra pour apprendre un langage de programmation&#63;</button>
+        <div class="panel">
+            <p><i>Il n&#39;y a pas de temps sp&#233;cifique mais&hellip;</i></p>
+            <p>La question pos&#233;e est fortement variable selon c&#39;est trois cas;</p>
+            <ul>
+                <li><strong>Vous-m&#234;me</strong>, d&#233;pendant de vos capacit&#233;s en informatique et l&#39;exp&#233;rience avec un ordinateur.</li>
+                <li><strong>Le temps et l&#39;investissement</strong>, jusqu&#39;&#224; quelle point irez-vous pour comprendre un langage informatique. La motivation et le temps sont n&#233;cessaires.</li>
+                <li><strong>La qualit&#233; de votre formation</strong>, comment t&#39;&#233;tait form&#233;e ou enseigner si t&#39;avait la formation &#40;La qualit&#233; de la formation, notions acquises&#41;.</li>
+            </ul>
+            <p><a href="https://apprendre-la-programmation.net/combien-de-temps-pour-apprendre-la-programmation/" target="_blank">Plus de D&#233;tails</a></p>
+        </div>
+        <button class="accordion">Pour quelqu&#39;un qui apprendre la programmation, le futur est-elle bonne?</button>
+        <div class="panel">
+            <p>Selon les recherches de plusieurs sites qui &#233;taient faits et la logique, les programmeurs auront toujours un r&#244;le dans ce qui concerne l&#39;informatique.</p>
+            <ul>
+                <li><a href="https://www.jesuisundev.com/quel-avenir-pour-les-developpeureuses-informatiques/" target="_blank">Developpeur informatique Quantum Computing</a></li>
+                <li><a href="https://fr.quora.com/Est-ce-que-programmeur-est-le-m%C3%A9tier-du-futur" target="_blank">Quora Metier Programmeur.</a></li>
+                <li><a href="https://www.fedit.ca/actualite-fedit/conseil-emploi/en-quoi-consiste-le-metier-de-programmeur-informatique/" target="_blank">Programmeur en bref</a></li>
+            </ul>
+            <p>Une chose est certaine, pour maintenant, si on d&#233;veloppera des machines intelligentes, ils doivent &#234;tre maintenus par des programmeurs et les d&#233;veloppeurs.</p>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            for (i = 0; i < acc.length; i++) 
+                {
+                 acc[i].addEventListener("click", function() 
+                      {
+                 this.classList.toggle("active");
+                 var panel = this.nextElementSibling;
+                 if (panel.style.display === "block") {
+                                                       panel.style.display = "none";
+                                                      } 
+                 else {
+                       panel.style.display = "block";
+                      }
+                });
+                     }
+      </script> 
+    </main>
+    <footer>
+        <nav>
+            <ul> 
+                <li><a href="Apropos.html">&#192; propos</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="SiteInteret.html">Sites d&#39;int&#233;r&#234;ts</a></li>
+                <li><a href="PlanSite.html">Plan du site</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#"><img src="../images/flechehaut.png" alt="Haut de page" title="Vers le haut de la page" width="40px"></a>
+            <a href="mailto:solhtalab32.kristopher32@gmail.com" title="Contactez-Nous"><img src="../images/buttoncourriel.png" alt="Contactez-Nous" width="100px" height="50px"></a>
+            <a href="https://twitter.com/Sol3Kr" target="_blank" title="Compte Twitter"> <img src="../images/buttontwitter.png" alt="Compte Twitter" width="100px" height="75px"></a>
+            <a href="https://www.facebook.com/profile.php?id=100083015545944" target="_blank" title="Compte Facebook"> <img src="../images/buttonfacebook.png" alt="Compte Facebook" width="100px" height="75px"></a>
+            <a href="https://ca.linkedin.com/in/kris-sol-1aa316245/fr?trk=people-guest_people_search-card" target="_blank" title="Compte Linkedin"> <img src="../images/buttonlinkedin.png" alt="Compte Linkedin" width="100px" height="75px"></a>
+            <p class="bas">Les 5 navigateurs suivants sont test&#233;s pour la compatibilit&#233; du site; Microsoft Edge, Navigateur Opera, Google Chrome, Safari et Firefox.</p>
+        </div>
+    </footer>
+</body>
+</html>

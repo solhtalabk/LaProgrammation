@@ -1,0 +1,116 @@
+/*---BODY--- */
+body{
+    width: 70%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.images a:hover{
+    opacity: 50%;
+}
+.logointeret img{
+    width: 70%;
+}
+.logointeret{
+    display: flex;
+    flex-direction: row;
+}
+.logointeret a:hover{
+    opacity: 70%;
+}
+/*---Fin BODY---*/
+/*---HEADER---*/
+header nav ul{
+    background-color: orange;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    color: blue;
+}
+#Logo a{
+    text-decoration: none;
+    color: black;
+}
+#Logo a:hover{
+    border-bottom-style: groove;
+    color: blue;
+}
+/*---Fin HEADER---*/
+/*---Footer---*/
+footer{
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid orange;
+}
+footer nav ul{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+footer nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+footer nav ul li a{
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 30px;
+    color: black;
+}
+footer nav ul li a:hover{
+    color: blue;
+}
+footer div a{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.bas{
+    float: right;
+    font-style: italic;
+}
+/*---Fin Footer---*/
+/*---BODY---*/
+h2{
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+.accordion{
+    background-color: rgb(255, 255, 255);
+    color: #525143;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    transition: 0.10s;
+    font-size: 1.2em;
+}
+.accordion:hover{
+    background-color: #ccc;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.panel{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+.panel p{
+    font-size: 1.3em;
+}
+/*Fin BODY*/
